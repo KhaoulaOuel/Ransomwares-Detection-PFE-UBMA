@@ -1,0 +1,135 @@
+#main-navbar{
+  color: rgb(255, 0, 0);
+  min-height: 13vh;
+  font-size:15px;
+}
+body{
+  background-image: url('BackRans.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+p{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+#header-text{
+  color: rgb(0, 0, 0);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  margin-top: 100px;
+}
+#header-paragraph{
+  font-size: 20px;
+  padding-top: 30px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+}
+#header-h1{
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
+#header-h4{
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+#header-h6{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+#header-h15{
+  color: rgb(255, 0, 0);
+  font-size: 17px;
+}
+#header-h16{
+  color: rgb(255, 255, 255);
+  font-size: 17px;
+}
+#header-h2{
+  color: rgb(255, 0, 0);
+  font-size: 60px;
+}
+#header-h3{
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+}
+#header-links{
+  position: relative;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+#header-links:hover{
+  color: #021f3b;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #fd1414;
+  box-shadow: 0 0 10px #fd1414, 0 0 4px #fd1414,0 0 80px #fd1414;
+  transition-delay: 0.1s;
+  text-decoration: none;
+  border-radius: 9px;
+}
+#authstyle{
+  margin-left: 17%;
+  border-radius: 50%;
+}
+body {
+  font: 100% / 1.414 "Open Sans", "Roboto", arial, sans-serif;
+}
+.signup__container {
+position: absolute;
+top: 50%;
+right: 0;
+left: 0;
+margin-right: auto;
+margin-left: auto;
+transform: translateY(-50%);
+overflow: hidden;
+display: flex;
+align-items: center;
+justify-content: center;
+width: remy(800px);
+height: remy(480px);
+border-radius: remy(3px);
+box-shadow: 0px remy(3px) remy(7px) rgba(0,0,0,.25);
+}
+#signup-button{
+  position: relative;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: #fd1414;
+  overflow: hidden;
+  transition: 0.2s;
+}
+#scan-button{
+  position: relative;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: #fd1414;
+  overflow: hidden;
+  transition: 0.2s;
+}
+#signup-button:hover{
+  color: #021f3b;
+  font-size: 15px;
+  border-radius: 6px;
+  background-color: #fd1414;
+  box-shadow: 0 0 10px #fd1414, 0 0 4px #fd1414,0 0 80px #fd1414;
+  transition-delay: 0.1s;
+  text-decoration: none;
+  border-radius: 9px;
+}

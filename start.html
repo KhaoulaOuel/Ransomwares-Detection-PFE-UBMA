@@ -1,0 +1,46 @@
+{% extends 'users/base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'users/css/main.css' %}">
+   <div class="container" style="margin-top:  30px;">
+
+      <fieldset class="form-group">
+      <legend class="border-bottom mb-4" style="color: rgb(255, 255, 255);">Let's Start Scanning !</legend>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <br><br>
+
+          <form action="{% url 'result' %}" method="POST" enctype="multipart/form-data">
+               {% csrf_token %}
+
+               <input type="file" name="file" value="" required="true"><br>
+
+               <br>
+               <br>
+
+                          <div><select  name="Algo" >
+                           <option value="">Choose the model</option>
+                           <option value="Decision Tree">Decision Tree</option>
+                           <option value="AdaBoost with Decision Tree">AdaBoost with Decision Tree</option>
+                           <option value="Multi-Layer Perceptron">Multi-Layer Perception</option>
+                           <option value="Support Vector Machine">Support Vector Machine</option>
+                           <option value="Random Forest">Random Forest</option>
+                           <option value="Logistic Regression">Logistic Regression</option>
+                           </select>
+                          </div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+              <div class="inputBox">
+                   <br>
+                     <input  type="submit" class="btn" style="color: white; background-color: #fd1414; "type="submit" id="header-links"  value="Scan">
+               </div>
+          </form>
+
+{% endblock %}
